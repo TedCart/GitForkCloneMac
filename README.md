@@ -8,20 +8,22 @@ Eventually I will explain how to assign these scripts to a keyboard shortcut, bu
 
 ## Really Shoddy "Install" Directions for Assigning Keyboard Shortcut
 
-Create a new **Service** in the "Automator" application and add a "Run AppleScript" action to it.
+1.  Create a new **Service** in the "Automator" application and add a "Run AppleScript" action to it.
 
-Paste in the following 2 lines of code **(with your edits)**:
+2.  Clear the default text from that new "action" and paste in the following 2 lines of code **(with your edits)**:
 
 `set script_file_name to (load script file "Macintosh HD:Users:<YOUR_USER_NAME_HERE>:wdi:<WHEREVER_YOU_PUT_THE_FOLDER>:GitForkCloneMac:GetGitRepo.scpt)`
 
-`tell script_file_name to run`
+`tell script_file_name to RunMain()`
 
-Note the use of colons (:) instead of slashes (/) to separate folders - this is a UNIX directory.
+3.  Towards the top of the Automator window, set "Service receives" to "no input". (it defaults to "text")
 
-Assign the service you created to a keyboard shortcut of your choosing under "System Preferences > Keyboard".
-- Select the "Shortcuts" tab on the "Keyboard" menu
-- Then select "Services" from the list on the left
-- Scroll down the Services list on the right until you see your service (it will be at the bottom of the list, most likely under "General")
+4.  Save the file.
+
+5.  Assign the service you created to a keyboard shortcut of your choosing under "System Preferences > Keyboard".
+    - Select the "Shortcuts" tab on the "Keyboard" menu
+    - Then select "Services" from the list on the left
+    - Scroll down the Services list on the right until you see your service
 
 ## Features
 
