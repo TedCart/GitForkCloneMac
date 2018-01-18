@@ -24,6 +24,7 @@ Eventually I will explain how to assign these scripts to a keyboard shortcut, bu
     - Select the "Shortcuts" tab on the "Keyboard" menu
     - Then select "Services" from the list on the left
     - Scroll down the Services list on the right until you see your service
+    - Assign it a keyboard shortcut (MAY TAKE SEVERAL MINUTES BEFORE SHORTCUT IS FUNCTIONAL)
 
 ## Features
 
