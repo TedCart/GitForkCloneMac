@@ -1,6 +1,6 @@
 ## What does it do?
 
--  Forks and clones git repos
+-  Forks and clones git repos into their appropriate folders
 -  Opens a Terminal at that working directory
 -  Installs dependencies
 -  Creates a response branch (when appropriate)
