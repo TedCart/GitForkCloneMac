@@ -1,3 +1,10 @@
+## What does it do?
+
+-  Forks and clones git repos
+-  Opens a Terminal at that working directory
+-  Installs dependencies
+-  Creates a response branch (when appropriate)
+
 ## This is a README
 
 This is a work in progress, although the current scripts do work.
@@ -12,7 +19,7 @@ Eventually I will explain how to assign these scripts to a keyboard shortcut, bu
 
 2.  Clear the default text from that new "action" and paste in the following 2 lines of code **(with your edits)**:
 
-`set script_file_name to (load script file "Macintosh HD:Users:<YOUR_USER_NAME_HERE>:wdi:<WHEREVER_YOU_PUT_THE_FOLDER>:GitForkCloneMac:GetGitRepo.scpt)`
+`set script_file_name to (load script file "Macintosh HD:Users:<YOUR_USER_NAME_HERE>:wdi:<WHEREVER_YOU_PUT_THE_FOLDER>:GitForkCloneMac:GetGitRepo.scpt")`
 
 `tell script_file_name to RunMain()`
 
