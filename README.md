@@ -21,6 +21,8 @@ This is a work in progress, although the current scripts do work.
 
 ## Assigning Keyboard Shortcut
 
+**THIS ISN'T WORKING - just Spotlight "GetGitRepo" for now.**
+
 1.  Copy GetGitRepo.app to your Applications folder.
 
 2.  Assign the service you created to a keyboard shortcut of your choosing under "System Preferences > Keyboard".
