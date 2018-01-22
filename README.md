@@ -5,6 +5,12 @@
 -  Installs dependencies
 -  Creates a response branch (when appropriate)
 
+OR if Finder is the frontmost/active application
+
+- Opens a Terminal at the selected folder
+- Opens the related Git repo in Chrome (provided Chrome is already open)
+- (This function is great for resuming a class)
+
 ## This is a README
 
 This is a work in progress, although the current scripts do work.
@@ -25,12 +31,12 @@ Eventually I will explain how to assign these scripts to a keyboard shortcut, bu
 
 3.  Towards the top of the Automator window, set "Service receives" to "no input". (it defaults to "text")
 
-4.  Save the file.
+4.  Save the file (<your-file-name>.workflow).
 
 5.  Assign the service you created to a keyboard shortcut of your choosing under "System Preferences > Keyboard".
     - Select the "Shortcuts" tab on the "Keyboard" menu
     - Then select "Services" from the list on the left
-    - Scroll down the Services list on the right until you see your service
+    - Scroll down the Services list on the right until you see your service (may not appear immediately)
     - Assign it a keyboard shortcut (MAY TAKE SEVERAL MINUTES BEFORE SHORTCUT IS FUNCTIONAL)
 
 ## Features
@@ -46,5 +52,3 @@ This script forks and clones the repo from the active tab in Chrome.
 ## ~~Bugs~~ Lesser Features
 
   Repos are downloaded to your General Assembly "wdi" folder and put in the corresponding subfolder (e.g., any "-study" will go in the "wdi/studies/" folder, "-diagnostic" into "wdi/diagnostics/", etc. -- folder names must match EXACTLY). If there's no identifier (study, diagnostic, practice, or challenge), the repo goes into the "wdi/trainings/" folder.
-
-  The script automatically runs "npm install" and "bundle install" every time, even when those commands aren't necessary. This could be updated later.
