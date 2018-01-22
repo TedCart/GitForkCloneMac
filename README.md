@@ -31,7 +31,7 @@ Eventually I will explain how to assign these scripts to a keyboard shortcut, bu
 
 3.  Towards the top of the Automator window, set "Service receives" to "no input". (it defaults to "text")
 
-4.  Save the file (\<your-file-name\>.workflow).
+4.  Save the file (your-file-name.workflow).
 
 5.  Assign the service you created to a keyboard shortcut of your choosing under "System Preferences > Keyboard".
     - Select the "Shortcuts" tab on the "Keyboard" menu
