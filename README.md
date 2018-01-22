@@ -11,7 +11,11 @@ OR if Finder is the frontmost/active application
 - Opens the related Git repo in Chrome (provided Chrome is already open)
 - (This function is great for resuming a class)
 
-## This is a README
+## How to Use
+
+Just open the application and it will run a script that does what's described above.
+
+Using Spotlight search is easy eno
 
 This is a work in progress, although the current scripts do work.
 
@@ -19,7 +23,7 @@ You can run them by opening them in the Script Editor and pressing CMD + R.
 
 Eventually I will explain how to assign these scripts to a keyboard shortcut, but you can Google it
 
-## Really Shoddy "Install" Directions for Assigning Keyboard Shortcut
+## Assigning Keyboard Shortcut
 
 1.  Copy GetGitRepo.app to your Applications folder.
 
