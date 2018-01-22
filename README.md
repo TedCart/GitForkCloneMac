@@ -21,7 +21,7 @@ This is a work in progress, although the current scripts do work.
 
 ## Assigning Keyboard Shortcut
 
-**THIS ISN'T WORKING - just Spotlight "GetGitRepo" for now.**
+**UPDATE: THIS ISN'T WORKING - just Spotlight "GetGitRepo" for now.**
 
 1.  Copy GetGitRepo.app to your Applications folder.
 
@@ -30,6 +30,8 @@ This is a work in progress, although the current scripts do work.
     - Then select "App Shortcuts" from the list on the left
     - Find the GetGitRepo.app and assign to a keyboad shortcut
     - (I use [CTRL + OPTION + CMD + G] because its hard to press accidentally)
+
+**UPDATE: THIS ISN'T WORKING - just Spotlight "GetGitRepo" for now.**
 
 ## Features
 
