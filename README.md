@@ -19,10 +19,6 @@ Using Spotlight search is easy enough (CMD + SpaceBar) and search for GetGitRepo
 
 This is a work in progress, although the current scripts do work.
 
-You can run them by opening them in the Script Editor and pressing CMD + R.
-
-Eventually I will explain how to assign these scripts to a keyboard shortcut, but you can Google it
-
 ## Assigning Keyboard Shortcut
 
 1.  Copy GetGitRepo.app to your Applications folder.
