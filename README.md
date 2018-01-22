@@ -1,3 +1,16 @@
+## What does it do?
+
+-  Forks and clones git repos into their appropriate folders
+-  Opens a Terminal at that working directory
+-  Installs dependencies
+-  Creates a response branch (when appropriate)
+
+OR if Finder is the frontmost/active application
+
+- Opens a Terminal at the selected folder
+- Opens the related Git repo in Chrome (provided Chrome is already open)
+- (This function is great for resuming a class)
+
 ## This is a README
 
 This is a work in progress, although the current scripts do work.
@@ -8,20 +21,13 @@ Eventually I will explain how to assign these scripts to a keyboard shortcut, bu
 
 ## Really Shoddy "Install" Directions for Assigning Keyboard Shortcut
 
-Create a new **Service** in the "Automator" application and add a "Run AppleScript" action to it.
+1.  Copy GetGitRepo.app to your Applications folder.
 
-Paste in the following 2 lines of code **(with your edits)**:
-
-`set script_file_name to (load script file "Macintosh HD:Users:<YOUR_USER_NAME_HERE>:wdi:<WHEREVER_YOU_PUT_THE_FOLDER>:GitForkCloneMac:GetGitRepo.scpt)`
-
-`tell script_file_name to run`
-
-Note the use of colons (:) instead of slashes (/) to separate folders - this is a UNIX directory.
-
-Assign the service you created to a keyboard shortcut of your choosing under "System Preferences > Keyboard".
-- Select the "Shortcuts" tab on the "Keyboard" menu
-- Then select "Services" from the list on the left
-- Scroll down the Services list on the right until you see your service (it will be at the bottom of the list, most likely under "General")
+2.  Assign the service you created to a keyboard shortcut of your choosing under "System Preferences > Keyboard".
+    - Select the "Shortcuts" tab on the "Keyboard" menu
+    - Then select "App Shortcuts" from the list on the left
+    - Find the GetGitRepo.app and assign to a keyboad shortcut
+    - (I use [CTRL + OPTION + CMD + G] because its hard to press accidentally)
 
 ## Features
 
@@ -36,5 +42,3 @@ This script forks and clones the repo from the active tab in Chrome.
 ## ~~Bugs~~ Lesser Features
 
   Repos are downloaded to your General Assembly "wdi" folder and put in the corresponding subfolder (e.g., any "-study" will go in the "wdi/studies/" folder, "-diagnostic" into "wdi/diagnostics/", etc. -- folder names must match EXACTLY). If there's no identifier (study, diagnostic, practice, or challenge), the repo goes into the "wdi/trainings/" folder.
-
-  The script automatically runs "npm install" and "bundle install" every time, even when those commands aren't necessary. This could be updated later.
