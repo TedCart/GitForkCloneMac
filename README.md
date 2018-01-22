@@ -21,23 +21,13 @@ Eventually I will explain how to assign these scripts to a keyboard shortcut, bu
 
 ## Really Shoddy "Install" Directions for Assigning Keyboard Shortcut
 
-1.  Create a new **Service** in the "Automator" application and add a "Run AppleScript" action to it.
+1.  Copy GetGitRepo.app to your Applications folder.
 
-2.  Clear the default text from that new "action" and paste in the following 2 lines of code **(with your edits)**:
-
-`set script_file_name to (load script file "Macintosh HD:Users:<YOUR_USER_NAME_HERE>:wdi:<WHEREVER_YOU_PUT_THE_FOLDER>:GitForkCloneMac:GetGitRepo.scpt")`
-
-`tell script_file_name to RunMain()`
-
-3.  Towards the top of the Automator window, set "Service receives" to "no input". (it defaults to "text")
-
-4.  Save the file (your-file-name.workflow).
-
-5.  Assign the service you created to a keyboard shortcut of your choosing under "System Preferences > Keyboard".
+2.  Assign the service you created to a keyboard shortcut of your choosing under "System Preferences > Keyboard".
     - Select the "Shortcuts" tab on the "Keyboard" menu
-    - Then select "Services" from the list on the left
-    - Scroll down the Services list on the right until you see your service (may not appear immediately)
-    - Assign it a keyboard shortcut (MAY TAKE SEVERAL MINUTES BEFORE SHORTCUT IS FUNCTIONAL)
+    - Then select "App Shortcuts" from the list on the left
+    - Find the GetGitRepo.app and assign to a keyboad shortcut
+    - (I use [CTRL + OPTION + CMD + G] because its hard to press accidentally)
 
 ## Features
 
