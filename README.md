@@ -15,7 +15,7 @@ OR if Finder is the frontmost/active application
 
 Just open the application and it will run a script that does what's described above.
 
-Using Spotlight search is easy eno
+Using Spotlight search is easy enough (CMD + SpaceBar) and search for GetGitRepo.
 
 This is a work in progress, although the current scripts do work.
 
