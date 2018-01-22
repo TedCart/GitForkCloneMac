@@ -45,4 +45,13 @@ This script forks and clones the repo from the active tab in Chrome.
 
 ## ~~Bugs~~ Lesser Features
 
-  Repos are downloaded to your General Assembly "wdi" folder and put in the corresponding subfolder (e.g., any "-study" will go in the "wdi/studies/" folder, "-diagnostic" into "wdi/diagnostics/", etc. -- folder names must match EXACTLY). If there's no identifier (study, diagnostic, practice, or challenge), the repo goes into the "wdi/trainings/" folder.
+  Repos are downloaded to your General Assembly "wdi" folder and put in the corresponding subfolder
+
+  For example:
+    - Any "-study" will go in the "wdi/studies/" folder
+    - Any "-diagnostic" into "wdi/diagnostics/"
+    - etc.
+
+  Folder names must match EXACTLY.
+
+  If there's no identifier (study, diagnostic, practice, or challenge), the repo goes into the "wdi/trainings/" folder.
